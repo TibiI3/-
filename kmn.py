@@ -31,7 +31,7 @@ for i in range(3):
             player = player + 1
             print('Вы выиграли !')
         else:
-            print('БАН')
+            exit(1)
         break
 print('\t-----Результат-----')
 if i <= 3 and player==comp:
@@ -41,4 +41,4 @@ elif i <= 3 and player<=comp:
 elif i <= 3 and player >= comp:
     print("Ты выиграл ")
 else:
-    print('Бан')
+    exit(1)
